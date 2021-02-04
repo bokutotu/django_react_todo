@@ -6,6 +6,6 @@ DBをPostgreSQLに変更した点。です。
 
 # Future Work
 - [ ] TypeScriptで書き直す
-- [ ] Dockerで書き直す
+- [x] Dockerで書き直す
 - [ ] Testをかく
 - [ ] CI/CDをかく

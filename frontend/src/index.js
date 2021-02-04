@@ -6,9 +6,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.Fragment>
+  <React.StrictMode>
     <App />
-  </React.Fragment>,
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
