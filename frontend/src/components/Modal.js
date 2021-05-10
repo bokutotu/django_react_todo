@@ -25,9 +25,9 @@ export const CustomModal = (props) => {
     console.log(activeItem);
   };
 
-  const { toggle, onSave } = props;
+  const { modal, toggle, onSave } = props;
   return (
-    <Modal isOpen={true} toggle={toggle}>
+    <Modal isOpen={modal} toggle={toggle}>
     <ModalHeader toggle={toggle}>ToDo Item </ModalHeader>
       <ModalBody>
         <Form>

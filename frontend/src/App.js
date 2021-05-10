@@ -31,6 +31,7 @@ function App() {
   const createItem = () => {
     const item = { title: "", description: "", completed: false };
     setItem(item);
+    console.log(modal);
     setModal(!modal);
   };
 
@@ -111,6 +112,7 @@ function App() {
       {modal ? (
         <CustomModal
           activeItem={Item}
+          modal={modal}
           toggle={setModal}
           onSave={handleSubmit}
         />
